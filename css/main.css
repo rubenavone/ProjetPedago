@@ -30,6 +30,11 @@ form {
     margin-right: auto;
     border-radius: 1000px;
     height: 60px; }
+.rond {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 100%; }
 
 btn-primary {
   background-color: #00dab6; }
