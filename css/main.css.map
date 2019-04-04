@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAM;EACF,MAAM,EAAE,GAAG;EACX,gBAAgB,ECAL,OAAO;;AAOtB,IAAI;EACA,KAAK,EAAE,IAAI",
-"sources": ["navbar.sass","main.sass"],
+"mappings": "AAAA,KAAK;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;EACtB,aAAa,EAAE,IAAI;;ACMvB,IAAI;EACA,KAAK,EAAE,IAAI",
+"sources": ["rond.sass","main.sass"],
 "names": [],
 "file": "main.css"
 }

@@ -1,6 +1,8 @@
-navbar {
-  height: 40%;
-  background-color: #ffc472; }
+.rond {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 100%; }
 
 body {
   width: 100%; }
