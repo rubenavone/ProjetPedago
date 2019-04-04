@@ -1,0 +1,91 @@
+.kl-block-chat-user {
+    border-radius: 1px;
+    width: 25%;
+    /*height: 250px;*/
+    position: fixed;
+    z-index: 222222;
+    bottom: 0.1px;
+    right: 0.2px;
+    border: 1px solid #f39a00;
+}
+
+.kl-block-name-user {
+    padding-left: 6px;
+    border-bottom:1px solid #f39a00;
+    background:#f39a00;
+    color:#fff;
+    cursor: pointer;
+}
+
+.kl-block-name-user{
+    line-height: 35px;
+    margin: 0px;
+    height:35px;
+    overflow: hidden;
+}
+
+.kl-block-name-user label{
+    cursor: pointer;
+}
+
+.kl-message-user-received {
+    width: 75%;
+    float:left;
+}
+
+.kl-container-message {
+    padding: 20px 2px;
+}
+
+.kl-avatar-user-sender {
+    float: right;
+}
+.kl-avatar-user-received{
+    float:left;
+    margin-right:10px;
+}
+
+.kl-message-user-sender {
+    width: 75%;
+    float: right;
+    text-align: right;
+    margin-right:10px;
+}
+
+.kl-block-message {
+    height: 175px;
+    overflow-y: hidden;
+    background:#000;
+}
+#id-message-send{
+    height: 36px;
+    border: none;
+    resize: none;
+    border-top: 1px solid #f39a00;
+    border-radius: 0px;
+    background:#000;
+    color:#fff;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.kl-message{word-wrap: break-word;}
+.kl-message-text{
+    color: #4b4f56;
+    background-color: #e9ebee;
+    border-radius: 2px;
+    padding: 6px 2px 2px;
+    font-weight: normal;
+    margin: 0px;
+    position:relative;
+    padding:10px;
+}
+.kl-message-user-received .kl-message-text{ background:#f49900;}
+.kl-message-user-received .kl-message-text::before{content:""; position:absolute; left:-9px; top:33%; width:0px; height:0px; border-right:10px solid #f49900; border-top:10px solid transparent; border-bottom:10px solid transparent;}
+.kl-avatar-user-sender .kl-message-text{ background:#f49900;}
+.kl-message-user-sender .kl-message-text::after{content:""; position:absolute; right:-9px; top:33%; width:0px; height:0px; border-left:10px solid #e9ebee; border-top:10px solid transparent; border-bottom:10px solid transparent;}
+.kl-username-top{line-height: 35px;margin: 0px; max-width:300px;display:block; color:#fff; display:inline-block;}
+.kl-username-top:hover{ color:#fff;}
+.kl-container-date{text-align: center; color:#fff; margin-bottom:1px;}
+.kl-avatar-user-sender img, .kl-avatar-user-received img{ border-radius:50%;}
+#id-block-message-send .form-group{ margin-bottom:0px !important;}

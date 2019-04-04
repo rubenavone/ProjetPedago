@@ -1,0 +1,226 @@
+
+.wrapper{
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+#carousel-fixed-height .carousel-inner .item::before{
+  background:transparent
+}
+/* HEADER */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif'); #id-header-box.fixed.kl-connecter {
+                                                                   border: none
+                                                                 }
+header.kl-connecter > .container{
+  max-width:100%
+}
+
+.kl-desc-buro span.kl-third-title {
+  border: none;
+}
+#id-header-box.fixed.kl-connecter > .container,
+.kl-not-connected .container{
+  width:100%
+}
+
+/* MOTEUR DE RECHERCHE */
+#carousel-fixed-height .carousel-inner > .item > img{width:100%;/*top: 10px;*/position: relative;}
+.kl-desc-buro h1 {
+  font-size: 60px;
+  color: #343638;
+  font-family: 'PT Serif', serif;
+  text-transform: none;
+  width: 80%;
+  font-weight: bold;
+  line-height: 52px;
+  padding-bottom: 15px;
+}
+.kl-box-description-site{
+  top: 20%;
+}
+.kl-desc-buro.carousel-caption{
+  top: 125px;
+}
+.kl-desc-buro span{
+  background:transparent;
+  font-size: 30px;
+  display: block;
+  width: 70%;
+  line-height: 35px;
+}
+.kl-desc-buro span.kl-third-title{
+  display:none
+}
+.kl-form-recherche input[type="text"], .kl-form-recherche input[type="number"]{
+  height: 40px !important;
+}
+.kl-form-recherche label {
+  background: transparent;
+  color: #000000;
+  font-size: 13px;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  width: 86px;
+  font-weight: normal;
+  height: 45px !important;
+  border-right: 1px solid #ccc;
+  line-height: 28px;
+}
+.text-uppercase.kl-poster-dde{
+  display:none
+}
+.irs-min, .irs-max{
+  color:#333 ! important
+}
+
+.kl-desc-buro span{
+  color:#333;text-shadow:1px 1px #0d1d2b40
+}
+/* TITRE */
+.kl-title-bloc {
+  color: #2e3c43;
+  font-family: 'PT Serif', serif;
+  font-size: 44px;
+  display: inline-block;
+  position: relative;
+}
+.kl-box-etape h3 {
+  color: #334249;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-top: 10px;
+}
+
+.kl-form-recherche{
+  background: rgba(255, 255, 255, 0.86);
+}
+
+
+
+/*Moteur de recherche*/
+
+.select2-container--default .select2-selection--single,
+.kl-map-block-form input[type=text] {
+  border-radius:.1875rem !important;border:1px solid #ccd1d3 !important;
+}
+
+.kl-sidebar-left.kl-rescent-post {
+  width: 55%;
+}
+.kl-map-box-search.pull-right {
+  width: 45%;
+}
+.kl-desc-box-listing.kl-title-desc-box-list-local h4{
+  font-family:inherit;
+
+}
+.kl-desc-box-listing.kl-title-desc-box-list-local h4 {
+     height: 55px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0 0 15px;
+}
+.kl-desc-box-listing.kl-title-desc-box-list-local {
+  margin-top: 0;
+  padding: 15px;
+}
+.kl-desc-box-listing.kl-title-desc-box-list-local span{
+  font-size:inherit;
+  height:auto;
+}
+.kl-specific-item-modal {
+  top: 5px;
+  left: 5px;
+  width: 50px;
+  background: rgba(0,0,0,.6);
+  height: 20px;
+}
+
+.kl-btn-voir {
+  color: #FFF;
+  border: 1px solid #f59a00;
+  font-family: inherit;
+  font-size: 14px;
+  /* border-radius: 25px; */
+  margin-top: 10px;
+  padding: 5px 35px;
+  transition: 0.5s;
+  background: #f59a00;
+}
+.kl-map-block-form input[type=text]{
+  width:100%
+}
+.kl-box-listing-group .kl-box-group{
+  margin-bottom: 30px
+}
+#search-advanced {
+    color: #282828;
+    margin: 0 0 25px;
+    width: 100%;
+    text-align: right;
+}
+/* CUSTOM STYLE */
+
+.kl-form-recherche input[type="text"], .kl-form-recherche input[type="number"] {
+  height: 45px !important;
+  margin: 0 0 20px 0;
+}
+
+.kl-carousel-homepage .carousel-inner{
+  height:90vh;
+}
+.kl-list-app-etape, .kl-partener {
+  padding-top:40px;
+}
+.kl-title-bloc{
+  font-family:inherit;
+}
+.kl-title-bloc:after{
+  display:none
+}
+.kl-desc-box-listing.kl-title-desc-box-list-local h4{
+  margin-top:10px,
+}
+.kl-desc-box-listing.kl-title-desc-box-list-local{
+  padding: 0 15px;
+}
+.col-md-4.kl-box-group .kl-desc-box-listing.kl-title-desc-box-list-local h4{
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*.kl-desc-box-listing.kl-title-desc-box-list-local h4{
+  height:30px
+}*/
+
+#carousel-fixed-height .carousel-inner > .item > img {
+  width: 100%;
+  position: relative;
+}
+.kl-desc-buro.carousel-caption {
+  top: 175px;
+}
+.kl-desc-buro h1 {
+  font-size: 60px;
+  color: #343638;
+  font-family: 'PT Serif', serif;
+  text-transform: none;
+  width: 76%;
+  font-weight: bold;
+  line-height: 52px;
+  padding-bottom: 15px;
+  background: rgba(255,255,255,.5);
+  padding: 20px;
+}
+.kl-desc-buro span {
+  background: rgba(255,255,255,.5);
+  font-size: 30px;
+  display: block;
+  width: 70%;
+  line-height: 35px;
+}
+.kl-main-menu .navbar-nav > li > a{
+  font-size: 16px;
+}

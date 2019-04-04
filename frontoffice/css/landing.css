@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+
+body, h2,h3, label, .btn, .ldg, #description{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+label span{
+    font-weight: 200;
+
+}
+.land-title{
+    font-size:40px;
+    font-weight: 500
+}
+.title-form {
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* Suprimme les fleches de selection */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=number]:focus {
+    outline: none;
+}
+
+/* Changer le blanc en n'importe quelle couleur ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Modifier le texte dans la zone de saisie automatique */
+input:-webkit-autofill {
+    -webkit-text-fill-color: black !important;
+}
+
+.bg {
+    background-image: url('../images/office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.ldg{
+    color: WHITE;
+    background: rgba(0,0,0,.6) !important;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    min-height: 360px;
+}
+.ldg p{
+    margin: 35px 0;
+    font-size: 25px;
+    font-size: 17px;
+}
+.ldg-b{
+    background: rgba(255,255,255,.8) !important;
+    border-radius: 4px;
+}
+
+#id-footer-contact {
+    background: #333;
+    padding: 0 25px 25px;
+    background-size: cover;
+    color: WHITE;
+    font-family: 'latoL';
+    font-size: 13.34px;
+}
+.color{
+    color: #F59A02;
+}
+.color-buro{
+    color: #F59A02;
+}
+
+.img {
+    width: 317px;
+    margin: 0 auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.form-control-buro input[type="text"],
+.form-control-buro input[type="number"] {
+    height: 45px !important;
+    border-radius: 4px;
+    box-shadow: 0;
+}
+
+.form-control-buro input[type="text"],
+.form-control-buro input[type="number"] {
+    font-size: 16px;
+}
+.form-control-buro input[type="text"] {
+    border-radius: 0px;
+    padding-left: 16px;
+    height: 38px;
+}
+.form-control-buro > form > div > input {
+    margin: 0;
+}
+
+
+@media (max-width: 767px) {
+    .bg {
+        background-size: cover;
+    }
+
+}
+
+.btn-prim{
+    color: #000;
+    background-color: #FFFFFF;
+    border-color: #FFF;
+    height: 50px;
+    padding: 5px 30px;
+    line-height: 40px;
+    border: 0;
+}
+
+.btn-send{
+    background-color: #f59a00;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    -webkit-box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 5px 14px 1px rgba(50,50,93,.1);
+    box-shadow: 0 3px 6px 1px rgba(0,0,0,.08), 0 5px 14px 1px rgba(50,50,93,.1);
+    width: 100%;
+    padding: 15px;
+}

@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAM;EACF,MAAM,EAAE,GAAG;EACX,gBAAgB,ECAL,GAAG;;AAKlB,IAAI;EACA,KAAK,EAAE,IAAI",
+"mappings": "AAAA,MAAM;EACF,MAAM,EAAE,GAAG;EACX,gBAAgB,ECAL,OAAO;;AAOtB,IAAI;EACA,KAAK,EAAE,IAAI",
 "sources": ["navbar.sass","main.sass"],
 "names": [],
 "file": "main.css"

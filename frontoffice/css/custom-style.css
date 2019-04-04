@@ -1,0 +1,271 @@
+/* Général */
+.hide {
+    display: none;
+}
+
+/* Menu langue */
+.kl-english{
+    background:url('../images/icon-us.png')no-repeat scroll left 2px;
+}
+
+.kl-french{
+    background:url('../images/icon-fr.png')no-repeat scroll left 2px;
+}
+
+/* Page accueil - Popup affiné dans le formulaire de recherche */
+#jobModal h4 {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#jobModal a {
+    text-align: center;
+    /*letter-spacing: 3px;*/
+    color: orange;
+    height: 165px;
+}
+
+.text-popin {
+    color: orange;
+    /*letter-spacing: 1px;*/
+}
+
+.modal-content {
+    background-color: #eee;
+}
+
+.pac-container {
+    z-index: 1051 !important;
+}
+
+#ui-id-1 {
+    display: block;
+    z-index: 9999;
+}
+
+#affine-lieu #txt-lieu {
+    margin-bottom: 9px;
+}
+
+#affine-sector .row {
+    overflow-y: auto;
+    height: 379px;
+    padding: 20px 0;
+}
+
+#btn-return-choice-sector  {
+    background: #f59a00;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#btn-previous-criteria {
+    float: left;
+    border: 0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+#btn-return, #btn-valid-specialization {
+    margin: 15px;
+}
+
+#btn-ignore-filter {
+    background: #f59a00;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+#affine-activity #btn-return {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 15px;
+}
+
+#affine-activity .row {
+    margin-bottom: 20px;
+}
+
+.modal-footer {
+    margin-top: 20px;
+}
+
+#affine-specialization #btn-return {
+    margin-left: 15px;
+}
+
+#affine-lieu #btn-return, #affine-date #btn-return, #affine-surface #btn-return {
+    margin: 0;
+}
+
+#affine-specialization #affine-lieu, #affine-date #txt-quand, #affine-surface #txt-surface  {
+    margin-bottom: 9px;
+}
+
+#affine-specialization .col-md-12 {
+    margin-bottom: -5px;
+}
+
+#btn-valid-specialization {
+    margin-left: -15px;
+}
+
+/* Page accueil - Formulaire de recherche */
+.kl-form-recherche h2 {
+    /*cursor: pointer;*/
+}
+
+.kl-box-description-site .select2-container--default .select2-selection--multiple {
+    padding-left: 89px;
+    height: auto;
+    z-index: 0;
+    border-radius: 0px !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+#id-surface {
+    padding-left: 96px;
+    height: 32px !important;
+    z-index: 0;
+}
+
+.kl-form-recherche label {
+    z-index:1;
+    height: 32px;
+}
+
+.select2.select2-container.select2-container--default {
+    width:100% !important;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: 1px solid #66afe9 !important;
+    box-shadow: 0 0 5px 0px #66afe9;
+}
+
+.kl-form-recherche input[type="text"], .kl-form-recherche input[type="number"] {
+    height: 32px !important;
+}
+
+/* Page résultat recherche groupe */
+.container.kl-container-not-full {
+    min-height: 1152px;
+}
+
+.kl-content-sidebar ul {
+    text-align: left;
+}
+#user-photo{
+    background-color: lightgrey;
+    display: none;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 425px) {
+    #affine-sector .col-xs-6, #affine-activity .col-xs-6 {
+        width: 100%;
+    }
+
+    #btn-ignore-filter {
+        float: left !important;
+        margin-top: 20px;
+    }
+
+    #btn-return-choice-sector {
+        float: left !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #btn-ignore-filter {
+        width: 300px !important;
+        padding-left: 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #btn-ignore-filter {
+        width: 262px !important;
+        font-size: 12px;
+    }
+}
+
+.select2-search__field::-moz-placeholder {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    font-family: "ubuntu";
+    outline: 0 none;
+    color: #999 !important;
+    opacity: 1;
+}
+
+.col-md-3.kl-box-group.kl-list-building {
+    margin-bottom: 45px;
+    margin-left: 25px;
+    min-height: 330px;
+}
+
+.kl-list-building {
+    margin-bottom: 45px;
+    /*margin-left: 25px;*/
+    min-height: 330px;
+}
+
+.kl-thumb-list-group-photo.kl-thumb img{
+    margin: auto;
+}
+.col-md-4.kl-interested-user{
+    min-height: 511px;
+    width: 33.3333%;
+}
+
+.kl-container-not-full.kl-list-group {
+    min-height: 1px;
+}
+
+.kl-btn-join-space {
+    background:#f59a00;
+    display:block !important;
+    width:100%;
+    margin-top:15px;
+}
+
+.kl-btn-create-group {
+    background:#f59a00;
+    color:#fff;
+    font-family:'ubuntuM';
+    font-size:14px;
+    border-radius:25px;
+    margin-top:10px;
+    padding:5px 35px;
+    transition:0.5s;
+}
+
+.kl-btn-create-group:hover{
+    color:#f59a00;
+    background:#fff;
+    border:1px solid #f59a00;
+}
+
+.irs-min, .irs-max {
+    color: white;
+}
+
+#id-message {
+    position: relative;
+}
+
+/* homepage dernière modif */
+.irs-to{
+    margin-left : -2%;
+}
