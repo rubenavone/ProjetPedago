@@ -7,6 +7,7 @@ section:nth-child(1) {
   background-position: center; }
 
 nav {
+  padding-top: 1%;
   height: 10vh;
   background-color: rgba(255, 255, 255, 0); }
   nav ul p {
@@ -23,32 +24,34 @@ nav {
       font-size: 20px; }
 
 form {
-  margin-top: 75px;
+  margin-top: 5%;
+  margin-right: 5%;
   width: 25%;
   height: 75vh;
   background-color: white;
   border-radius: 5%;
   float: right; }
-  form div {
-    /*input
-     * margin: 15px
-     * background-color: grey
-     * text-align: center
-     * margin-left: auto
-     * margin-right: auto
-     * border-radius: 1000px
-     * height: 60px */ }
-    form div p {
-      margin-left: auto;
-      margin-right: auto;
-      color: #6463f7;
-      font-size: 25px; }
+  form div p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #6463f7;
+    font-size: 30px;
+    text-align: left; }
 
-btn-primary {
-  background-color: #00dab6; }
+.input-group {
+  margin: 4%;
+  margin-left: 9%;
+  border-radius: 100% !important; }
 
-row {
-  width: 100%; }
+.btn-primary {
+  background-color: #fe444c !important;
+  border: none !important;
+  margin: 5% auto auto auto;
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 20% !important;
+  border-bottom-right-radius: 50% !important;
+  border-bottom-left-radius: 20% !important; }
 
 .absolute-pic {
   position: absolute;
@@ -69,41 +72,51 @@ row {
   width: 10px;
   height: 67px;
   padding-left: 45px !important;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-right: -30px; }
 
 .texte-du-logo {
   padding-left: 0px !important;
-  margin-top: auto; }
+  margin-top: auto;
+  margin-bottom: 11px;
+  margin-right: 200px; }
 
 @keyframes point-qui-bouge {
   0% {
-    top: 10px;
+    top: 35px;
     left: 0; }
   15% {
-    top: 2px; }
+    top: 4px; }
   25% {
     top: 0px;
     opacity: 0.3; }
   35% {
-    top: 2px;
+    top: 4px;
     opacity: 0.6; }
   50% {
-    top: 10px;
+    top: 35px;
     opacity: 0.9; }
   65% {
-    top: 2px; }
+    top: 4px; }
   75% {
     top: 0px; }
   85% {
-    top: 2px; }
+    top: 4px; }
   100% {
-    top: 10px;
-    left: 447px;
+    top: 35px;
+    left: 417px;
     opacity: 1; } }
 section:nth-child(2) {
   height: 100vh;
   width: 100%;
   background-color: #00dab6; }
+
+#section-deux h1 {
+  font-size: 4em !important;
+  text-align: left !important;
+  color: white !important; }
+#section-deux p {
+  color: white; }
 
 section:nth-child(3) {
   height: 100vh;
