@@ -61,9 +61,19 @@ row {
   position: absolute;
   top: 10px;
   left: 0;
-  width: 1.5%;
+  width: 0.5%;
   animation: point-qui-bouge 2s 2s forwards linear;
   opacity: 0; }
+
+.logo {
+  width: 10px;
+  height: 67px;
+  padding-left: 45px !important;
+  margin-top: 10px; }
+
+.texte-du-logo {
+  padding-left: 0px !important;
+  margin-top: auto; }
 
 @keyframes point-qui-bouge {
   0% {
