@@ -1,7 +1,7 @@
 section:nth-child(1)
     height: 100vh
     width: 100%
-    background-image: url("../3.jpg")
+    background-image: url("../img/3.jpg")
     background-size: 100%
     background-repeat: no-repeat
     background-position: center
@@ -38,14 +38,14 @@ form
             margin-right: auto
             color: $fourth-color
             font-size: 25px
-        input
+        /*input
             margin: 15px
             background-color: grey
             text-align: center
             margin-left: auto
             margin-right: auto
             border-radius: 1000px
-            height: 60px
+            height: 60px*/
 
 btn-primary
     background-color: $first-color
@@ -62,51 +62,37 @@ row
 
 .point
     position: absolute
+    top: 10px
+    left: 0
     width: 1.5%
-    animation: point-qui-bouge 2s 2s forwards
+    animation: point-qui-bouge 2s 2s forwards linear
+    opacity: 0
 
 @keyframes point-qui-bouge
     0%
-        top: 35px
+        top: 10px
         left: 0
-    10%
-        top: 30px
-        left: 44.7px
-       
-    20%
-        top: 25px
-        left: 89.4px
-      
-
-    30%
-        top: 20px
-        left: 134.1px
-      
-    40%
-        top: 15px
-        left: 178,8px
-        
+    15%
+        top: 2px
+    25%
+        top: 0px
+        opacity: .3
+    35%
+        top: 2px
+        opacity: .6
     50%
         top: 10px
-        left: 223,5px
-     
-    60%
-        top: 15px
-        left: 268,2px
-       
-    70%
-        top: 20px
-        left: 312,9px
-       
-    80%
-        top: 25px
-        left: 357,6px
-       
-    90%
-        top: 30px
-        left: 402,3px
+        opacity: .9
+    65%
+        top: 2px
+    75%
+        top: 0px
+    85%
+        top: 2px
         
     100%
-        top: 35px
+        top: 10px
         left: 447px
+        opacity: 1
+
         
