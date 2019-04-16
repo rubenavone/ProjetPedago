@@ -1,6 +1,6 @@
 
-Date du projet:  Du jeudi 4 avril au mardi 16 avril
-Participant: [Benjamin, Mehdi, Thibault, Nicolas, Ruben ]
+- Date du projet: Du jeudi 4 avril au mardi 16 avril
+- Participant: Benjamin, Mehdi, Thibault, Nicolas, Ruben 
 ------------------------
 
 # BuroStation
@@ -38,8 +38,9 @@ Mettre en place les divers élément visuel police, image et autres.
 Fournir les livrables et le prototype final.
 
 ## Techno
-
-[Bootstrap 4.3]https://getbootstrap.com/
-[Ruby Sass 3.7.3]https://sass-lang.com/
-[Font awesome 5.8.1]https://fontawesome.com/
-[Google font]https://fonts.google.com/
+| Nom  |     Version    |   URL |
+| ------------- | ------------- | --------- |
+|Bootstrap |4.3|https://getbootstrap.com/
+Ruby Sass |3.7.3 |https://sass-lang.com/
+Font awesome | 5.8.1|https://fontawesome.com/
+Google font | NULL|https://fonts.google.com/
