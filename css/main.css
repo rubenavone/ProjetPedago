@@ -1,87 +1,4 @@
-section:nth-child(1) {
-  height: 100vh;
-  width: 100%;
-  background-image: url("../img/3.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-nav {
-  padding-top: 1%;
-  height: 10vh;
-  background-color: rgba(255, 255, 255, 0); }
-  nav ul p {
-    color: white;
-    font-size: 30px;
-    text-align: left;
-    margin-left: -30px;
-    margin-top: 5vh; }
-  nav ul li {
-    list-style-type: none;
-    margin-top: 5vh; }
-    nav ul li a {
-      color: white;
-      font-size: 20px; }
-
-form {
-  margin-top: 5%;
-  margin-right: 5%;
-  width: 25%;
-  height: 75vh;
-  background-color: white;
-  border-radius: 5%;
-  float: right; }
-  form div p {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    color: #6463f7;
-    font-size: 30px;
-    text-align: left; }
-
-.input-group {
-  margin: 4%;
-  margin-left: 9%;
-  border-radius: 100% !important; }
-
-.btn-primary {
-  background-color: #fe444c !important;
-  border: none !important;
-  margin: 5% auto auto auto;
-  border-top-left-radius: 50% !important;
-  border-top-right-radius: 20% !important;
-  border-bottom-right-radius: 50% !important;
-  border-bottom-left-radius: 20% !important; }
-
-.absolute-pic {
-  position: absolute;
-  width: 50%;
-  top: -10px;
-  left: 0px;
-  opacity: 1; }
-
-.point {
-  position: absolute;
-  top: 10px;
-  left: 0;
-  width: 0.5%;
-  animation: point-qui-bouge 2s 2s forwards linear;
-  opacity: 0; }
-
-.logo {
-  width: 10px;
-  height: 67px;
-  padding-left: 45px !important;
-  margin-top: 10px;
-  margin-right: -30px; }
-
-.texte-du-logo {
-  padding-left: 0px !important;
-  margin-top: auto;
-  margin-bottom: 11px;
-  margin-right: 200px; }
-
-@keyframes point-qui-bouge {
+@keyframes animated-dot {
   0% {
     top: 35px;
     left: 0; }
@@ -106,15 +23,126 @@ form {
     top: 35px;
     left: 417px;
     opacity: 1; } }
+@keyframes animated-dot-svg {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+nav {
+  padding-top: 1%;
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0);
+  width: 90%;
+  margin: auto; }
+  nav ul li {
+    text-shadow: 2px 0.5px 1px black;
+    list-style-type: none;
+    margin-top: 5vh; }
+    nav ul li a {
+      color: white;
+      font-size: 20px; }
+  nav li:nth-child(2) {
+    margin-left: 15%; }
+  nav svg {
+    width: 400px;
+    z-index: 10;
+    margin-left: 1%; }
+
+.absolute-pic {
+  position: absolute;
+  width: 50%;
+  top: -10px;
+  left: 0px;
+  opacity: 1; }
+
+.point {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 0.5%;
+  opacity: 0; }
+
+.point-svg {
+  animation: animated-dot-svg 2s;
+  fill: #6463f7 !important; }
+
+.top-logo {
+  fill: #FFFFFF !important; }
+
+section:nth-child(1) {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+form {
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 1%;
+  width: 30%;
+  height: 75vh;
+  background-color: white;
+  border-radius: 5%;
+  float: right; }
+  form div p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #6463f7;
+    font-size: 30px;
+    text-align: left; }
+
+.input-group {
+  height: 8vh;
+  margin: 4%; }
+  .input-group input[type="text"] {
+    width: 25vw;
+    font-size: 1.5em;
+    border: 2px solid #87eada;
+    padding: 1vw; }
+  .input-group input[placeholder] {
+    padding-left: 7%;
+    font-size: 2em;
+    font-weight: 100; }
+
+input[type="submit"] {
+  height: 4vw;
+  width: 25vw; }
+
+.btn-primary {
+  background-color: #fe444c !important;
+  border: none !important;
+  margin: 3% auto auto auto; }
+
+.logo {
+  width: 10px;
+  height: 67px;
+  padding-left: 45px !important;
+  margin-top: 10px;
+  margin-right: -30px; }
+
+.texte-du-logo {
+  padding-left: 0px !important;
+  margin-top: auto;
+  margin-bottom: 11px;
+  margin-right: 200px; }
+
+.form-rounded-right {
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em; }
+
+.form-rounded-left {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  height: 60px; }
+
 section:nth-child(2) {
   height: 100vh;
   width: 100%;
   background-color: #00dab6; }
 
-#section-deux h1 {
-  font-size: 4em !important;
-  text-align: left !important;
-  color: white !important; }
 #section-deux p {
   color: white; }
 
@@ -122,29 +150,50 @@ section:nth-child(3) {
   height: 100vh;
   width: 100%; }
 
-.low-section {
+.button-section {
   background-color: white;
-  width: 101%;
-  height: 19vh; }
-  .low-section button {
-    margin: auto; }
+  width: 100%;
+  height: 40vh; }
+  .button-section button {
+    font-size: 25px;
+    margin: auto;
+    width: 25%;
+    height: 75px;
+    background-color: #6463f7 !important; }
 
 section:nth-child(4) {
   height: 100vh;
   width: 100%;
   background-color: #ffc472; }
 
-.rond {
-  width: 200px;
-  height: 500px;
-  background-color: blue;
-  border-radius: 40%; }
+footer {
+  height: 200px;
+  background-color: #e6e7e8; }
+  footer img {
+    width: 250px; }
+  footer ul {
+    padding-top: 50px;
+    margin-left: 3vw; }
+    footer ul li {
+      list-style: none; }
+  footer i {
+    color: #6463f7;
+    font-size: 30px;
+    padding-top: 60px;
+    margin-left: 40px; }
+  footer svg {
+    width: 310px;
+    fill: #6463f7; }
+
+.bottom-logo {
+  fill: #6463f7; }
 
 body, html {
   height: 400vh;
   margin: 0;
   padding: 0;
-  image-rendering: auto; }
+  image-rendering: auto;
+  font-family: "Questrial", sans-serif; }
 
 section {
   position: relative; }
@@ -154,23 +203,47 @@ section {
   background-size: 150%;
   background-position: center;
   background-repeat: no-repeat;
-  border: 1px solid black;
-  margin-top: 10vh; }
+  margin-top: 10vh;
+  width: 200px;
+  height: 500px;
+  background-color: blue;
+  border-radius: 40%; }
 
 article {
-  padding-top: 20vh; }
-  article h1 {
-    text-align: center;
-    color: black; }
+  padding-top: 15vh; }
 
 p {
-  font-size: 30px;
+  margin-bottom: 20px;
+  font-size: 25px;
   color: black;
-  text-align: center;
   bottom: 0; }
 
-padding {
-  width: 80% !important;
-  margin: auto !important; }
+.container {
+  max-width: 1250px; }
+
+h1, h2, h3 {
+  font-size: 5em;
+  margin-bottom: 0.7em; }
+
+h2 {
+  text-align: left;
+  color: black; }
+
+h1 {
+  text-align: right;
+  color: white; }
+
+h3 {
+  text-align: right; }
+
+.arrow-black {
+  width: 30px;
+  background-color: black;
+  color: white; }
+
+.arrow-white {
+  width: 30px;
+  background-color: white;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */

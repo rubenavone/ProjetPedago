@@ -1,0 +1,76 @@
+//Animation du point sur le logo 
+@keyframes animated-dot
+    0%
+        top: 35px
+        left: 0
+    15%
+        top: 4px
+    25%
+        top: 0px
+        opacity: .3
+    35%
+        top: 4px
+        opacity: .6
+    50%
+        top: 35px
+        opacity: .9
+    65%
+        top: 4px
+    75%
+        top: 0px
+    85%
+        top: 4px  
+    100%
+        top: 35px
+        left: 417px
+        opacity: 1
+
+@keyframes animated-dot-svg
+    0%
+        transform: scale(0)
+    100%
+        transform: scale(1)
+
+nav 
+    padding-top: 1%
+    height: 10vh
+    background-color: rgba(255, 255, 255, 0)
+    width: 90%
+   
+    margin: auto
+    ul
+        li
+            text-shadow: 2px 0.5px 1px black
+            list-style-type: none
+            margin-top: 5vh
+            //margin-left: 5%
+            a
+                color: white
+                font-size: 20px
+    li:nth-child(2)
+        margin-left: 15%      
+    svg 
+        width: 400px
+        z-index: 10
+        margin-left: 1%
+
+.absolute-pic
+    position: absolute
+    width: 50%
+    top: -10px
+    left: 0px
+    opacity: 1
+.point
+    position: absolute
+    top: 10px
+    left: 0
+    width: 0.5%
+    opacity: 0
+
+.point-svg
+    animation: animated-dot-svg 2s 
+    fill: #6463f7 !important
+
+.top-logo
+    fill: #FFFFFF !important
+

@@ -6,28 +6,11 @@ section:nth-child(1)
     background-repeat: no-repeat
     background-position: center
 
-nav 
-    padding-top: 1%
-    height: 10vh
-    background-color: rgba(255, 255, 255, 0)
-    ul
-        p
-            color: white
-            font-size: 30px
-            text-align: left
-            margin-left: -30px
-            margin-top: 5vh
-        li
-            list-style-type: none
-            margin-top: 5vh
-            a
-                color: white
-                font-size: 20px
-
 form
     margin-top: 5%
     margin-right: 5%
-    width: 25%
+    padding: 1%
+    width: 30%
     height: 75vh
     background-color: white
     border-radius: 5%
@@ -41,33 +24,27 @@ form
             color: $fourth-color
             font-size: 30px
             text-align: left
+
 .input-group
+    height: 8vh
     margin: 4%
-    margin-left: 9%
-    border-radius: 100% !important
+    input[type="text"]
+        width: 25vw
+        font-size: 1.5em
+        border: 2px solid $third-color
+        padding: 1vw
+    input[placeholder]
+        padding-left: 7%
+        font-size: 2em
+        font-weight: 100
+input[type="submit"]
+    height: 4vw 
+    width: 25vw
 
 .btn-primary
     background-color: $btn-color !important
     border: none !important
-    margin: 5% auto auto auto
-    border-top-left-radius: 50% !important
-    border-top-right-radius: 20% !important
-    border-bottom-right-radius: 50% !important
-    border-bottom-left-radius: 20% !important
-.absolute-pic
-    position: absolute
-    width: 50%
-    top: -10px
-    left: 0px
-    opacity: 1
-
-.point
-    position: absolute
-    top: 10px
-    left: 0
-    width: 0.5%
-    animation: point-qui-bouge 2s 2s forwards linear
-    opacity: 0
+    margin: 3% auto auto auto
 .logo 
     width: 10px
     height: 67px
@@ -79,33 +56,19 @@ form
     padding-left: 0px !important  
     margin-top: auto  
     margin-bottom: 11px
-    margin-right: 200px
+    margin-right: 200px 
 
-@keyframes point-qui-bouge
-    0%
-        top: 35px
-        left: 0
-    15%
-        top: 4px
-    25%
-        top: 0px
-        opacity: .3
-    35%
-        top: 4px
-        opacity: .6
-    50%
-        top: 35px
-        opacity: .9
-    65%
-        top: 4px
-    75%
-        top: 0px
-    85%
-        top: 4px
-        
-    100%
-        top: 35px
-        left: 417px
-        opacity: 1
+.form-rounded-right
+    border-top-right-radius: 1em
+    border-bottom-right-radius: 1em
+
+.form-rounded-left
+    border-top-left-radius: 1em
+    border-bottom-left-radius: 1em
+    height: 60px
+
+
+
+
 
         
